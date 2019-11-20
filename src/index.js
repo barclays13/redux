@@ -36,8 +36,6 @@ const update = () => {
     document.getElementById('counter').textContent = store.getState();
 }
 
-
-
 store.subscribe(update);
 
 // store.dispatch({type: 'INC'});

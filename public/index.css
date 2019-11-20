@@ -39,9 +39,24 @@ body {
     border-radius: 4px;
 }
 
-img {
-    width: 40px;
+.plus-block .plus {
+    background: white;
     height: 40px;
+    width: 6px;
+    position: relative;
+    left: 22px;
+    border-radius:3px;
+}
+
+.plus-block .plus:after {
+    content: "";
+    height: 6px;
+    width: 40px;
+    background: white;
+    position: absolute;
+    left: -17px;
+    top: 17px;
+    border-radius:3px;
 }
 
 .minus-block {
@@ -67,4 +82,11 @@ img {
     height: 65px;
     background: #CF1C1C;
     border-radius: 4px;
+}
+
+.reset-block  .reset{
+    margin-left: 13px;
+    margin-top: 13px;
+    width: 40px;
+    width: 40px;
 }
