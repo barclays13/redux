@@ -1,13 +1,20 @@
+.d-flex {
+    display: flex;
+}
 body {
-    width: 1440px;
-    height: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
     background: linear-gradient(180deg, #0837B0 0%, #021E66 100%) no-repeat;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .counter-block {
-    margin-top: 189px;
-    margin-left: 578px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 300px;
     height: 300px;
     background: #FFFFFF;
@@ -16,8 +23,6 @@ body {
 }
 
 .counter-block #counter{
-    padding-top: 62px;
-    padding-left: 65px;
     width: 169px;
     height: 176px;
     font-family: Roboto;
@@ -29,10 +34,12 @@ body {
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.buttons {
+    justify-content: space-evenly;
+    margin-top: 34px;
+}
 
 .plus-block {
-    margin-left: 592px;
-    margin-top: 34px;
     width: 65px;
     height: 65px;
     background: #089C20;
@@ -60,13 +67,12 @@ body {
 }
 
 .minus-block {
-    margin-left: 32px;
-    margin-top: 34px;
     width: 65px;
     height: 65px;
     background: #E7AA10;
     border-radius: 4px;
 }
+
 .minus-block .minus {
     margin-left: 5px;
     width: 40px;
@@ -76,17 +82,17 @@ body {
 }
 
 .reset-block {
-    margin-left: 32px;
-    margin-top: 34px;
+    align-items: center;
+    justify-content: center;
     width: 65px;
     height: 65px;
     background: #CF1C1C;
     border-radius: 4px;
 }
 
-.reset-block  .reset{
-    margin-left: 13px;
-    margin-top: 13px;
+.reset-block img{
+    margin-left: 10px;
+    margin-top: 10px;
     width: 40px;
     width: 40px;
 }
